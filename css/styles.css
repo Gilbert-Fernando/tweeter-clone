@@ -145,3 +145,52 @@ button:active {
   color: #1da1f2; /* Tweeter blue on hover */
   transform: scale(1.2); /* slightly enlarge on hover */
 }
+
+#tweetFeed {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.posted-tweet {
+  display: flex;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  gap: 10px;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.tweet-icons {
+  display: flex;
+  gap: 20px;
+  margin-top: 8px;
+  font-size: 16px;
+}
+
+.tweet-icons i {
+  color: gray;
+  cursor: pointer;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.tweet-icons i:hover {
+  color: #1da1f2;
+  transform: scale(1.2);
+}
+
+button:disabled {
+  background-color: #9acdf5;
+  cursor: not-allowed;
+}
