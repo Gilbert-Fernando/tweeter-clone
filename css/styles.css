@@ -134,3 +134,14 @@ button:active {
     gap: 5px;
   }
 }
+
+.tweet-icons i {
+  color: gray;
+  cursor: pointer;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.tweet-icons i:hover {
+  color: #1da1f2; /* Tweeter blue on hover */
+  transform: scale(1.2); /* slightly enlarge on hover */
+}

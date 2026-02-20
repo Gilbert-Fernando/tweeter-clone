@@ -4,13 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tweeter Clone</title>
-  <link rel="stylesheet" href="chat.css">
-  <script defer src="chat.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
   <!-- Top Navigation -->
   <nav class="top-nav">
-    <div class="logo"></div>
+    <img src="image/logo.png" alt="Tweeter Logo" class="logo">
     <h1>Tweeter</h1>
   </nav>
 
@@ -32,16 +33,18 @@
       <div class="profile-pic"></div>
       <div class="tweet-content">
         <div class="tweet-header">
-          <span class="name">John Doe</span>
-          <span class="username">@johndoe</span>
-          <span class="date">· Feb 19</span>
+          <span class="name">Gilberto Garza</span>
+          <span class="username">@jucateco_tactico89</span>
+          <span class="date">· Feb 20</span>
         </div>
-        <p>Hello Tweeter! This is a sample tweet.</p>
+        <p>"controversial political opinion", from CSCI 3342.</p>
         <div class="tweet-icons">
-          <span class="icon">💬</span>
-          <span class="icon">🔁</span>
-          <span class="icon">🔗</span>
-          <span class="icon">📤</span>
+          <div class="tweet-icons">
+          <i class="far fa-comment"></i>   <!-- comment -->
+          <i class="fas fa-retweet"></i>   <!-- retweet -->
+          <i class="fas fa-link"></i>      <!-- link -->
+          <i class="fas fa-upload"></i>    <!-- upload -->
+        </div>
         </div>
       </div>
     </section>
