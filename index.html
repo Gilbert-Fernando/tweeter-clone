@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tweeter Clone</title>
+  <link rel="stylesheet" href="chat.css">
+  <script defer src="chat.js"></script>
+</head>
+<body>
+  <!-- Top Navigation -->
+  <nav class="top-nav">
+    <div class="logo"></div>
+    <h1>Tweeter</h1>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <section class="tweet-box">
+      <div class="profile-pic"></div>
+      <div class="tweet-input">
+        <textarea id="tweetText" placeholder="What's happening?" maxlength="160"></textarea>
+        <div class="tweet-footer">
+          <span id="charCount">160 characters remaining</span>
+          <button id="tweetBtn">Tweeet</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sample posted tweet -->
+    <section class="posted-tweet">
+      <div class="profile-pic"></div>
+      <div class="tweet-content">
+        <div class="tweet-header">
+          <span class="name">John Doe</span>
+          <span class="username">@johndoe</span>
+          <span class="date">· Feb 19</span>
+        </div>
+        <p>Hello Tweeter! This is a sample tweet.</p>
+        <div class="tweet-icons">
+          <span class="icon">💬</span>
+          <span class="icon">🔁</span>
+          <span class="icon">🔗</span>
+          <span class="icon">📤</span>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
